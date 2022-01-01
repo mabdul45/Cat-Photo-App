@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CatPhotoApp</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1>CatPhotoApp</h1>
+
+    <h3>Cat Photos</h3>
+
+    <p class="ctphotos">
+      click here to view more cat photos
+      <a href="https://www.freecatphotoapp.com/" target="_blank">
+        cat photos
+        <br />
+      </a>
+      <a href="https://www.freecatphotoapp.com/">
+        <img src="./images/relaxing-cat.jpg" alt="relaxing cat"
+      /></a>
+    </p>
+
+    <div>
+      <p class="ct_lst">cat lists</p>
+      <p class="ctphotos">things cat love:</p>
+      <ul>
+        <li>cat niop</li>
+        <li>laser pointers</li>
+        <li>lasagner</li>
+      </ul>
+      <div class="img_lsgnr">
+        <img src="./images/lasagna.jpg" alt="lasgner" />
+        <p>cats love lasagner.</p>
+      </div>
+
+      <div>
+        <p class="ctphotos">top three things cat hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <div class="img_cthate">
+          <img src="./images/cats.jpg" alt="cats" />
+          <p>cats hate other cats</p>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <form action="">
+        <p class="ct_frm">Cat Form</p>
+        <fieldset>
+          <legend>is your cat an indoor or an outdoor cat</legend>
+          <div class="ct_in_out">
+            <span>
+              <input type="radio" id="indoor" />
+              <label for="indoor">indoor</label>
+            </span>
+            <span>
+              <input type="radio" id="outdoor" />
+              <label for="outdoor">Outdoor</label>
+            </span>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>What is your cat personality</legend>
+          <div class="ct_personality">
+            <span>
+              <input type="checkbox" id="loving" />
+              <label for="loving">Loving</label>
+            </span>
+            <span>
+              <input type="checkbox" id="lazy" />
+              <label for="lazy">Lazy</label>
+            </span>
+            <span>
+              <input type="checkbox" id="energetic" />
+              <label for="energetic">Energetic</label>
+            </span>
+          </div>
+        </fieldset>
+        <input type="text" placeholder="cat photo URL" />
+        <button>submit</button>
+      </form>
+    </main>
+    <footer>
+      <p>
+        No Copy Right -
+        <a
+          href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-1"
+          >freecodecamp.org</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
